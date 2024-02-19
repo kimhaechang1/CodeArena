@@ -267,10 +267,16 @@ https://www.erdcloud.com/d/nrfqSDdChRWJpanzz
 
 ### 매칭 진행
 
-
+![Main](/asset/gif/매칭진행.gif)
 
 ### 스피드전 진행, 화면공유 그리고 결과
 
+![Main](/asset/gif/스피드전진행.gif)
+
 ### 효율전 진행, 중간 채점현황
 
+![Main](/asset/gif/효율게임진행.gif)
+
 ### 관전자 배팅 및 채팅
+
+![Main](/asset/gif/관전자,베팅.gif)
