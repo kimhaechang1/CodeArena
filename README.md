@@ -22,13 +22,12 @@
 
 ## 🚩 개발기간
 
-|  | [프로젝트 일정] |
-| :---:|:---:|
-|진행 기간|2024.01.-2024.02.|
-|인원|6명|
-|시간|평일 09:00-18:00|
+|           |     [프로젝트 일정]     |
+| :-------: | :---------------------: |
+| 진행 기간 | 2024.01.03 - 2024.02.16 |
+|   인원    |           6명           |
 
-## 🤖 팀원 구성
+## 🤓 팀원 구성 🤓
 
 <table>
  <tr>
@@ -53,39 +52,71 @@
 
 ## 📌 커밋 컨벤션
 
-<h3> Type 명세 </h3>
-<table>
-  <tr>
-<td><p><b>[Feat]</p> : 기능 개발 완료</p></td>
-<td><p><b>[Modify]</p> : 기능 개발 중 수정 사항 발생</p></td>
-<td><p><b>[Refactor]</p> : 리팩토링 수행</p></td>
-<td><p><b>[Docs]</p> : 문서 작업</p></td>
-<td><p><b>[Test]</p> : 테스트 코드 작성</p></td>
-<td><p><b>[Design]</p> : CSS, UI 수정</p></td>
-<td><p><b>[Remove]</p> : 파일 삭제</p></td>
-  </tr>
-</table>
-<hr>
-<h3> Commit Example </h3>
-<p>feat 커밋 예시 (JIRA 고유번호 4번 Task의 경우) </p>
-<p>[Type] Subject //타입의 경우 첫글자는 대문자로 작성, 커밋 내용이 뚜렷하게 드러날 수 있도록 작성 </p>
-<p>body //Subject 관련 어떤 작업을 했는지에 대해 간단하게 작성 </p>
-<p>footer //JIRA Task 번호와 매칭 </p>
-<table>
-  <tr>
-<td><p><b>[Feat] 로그인 기능 구현</b></p>
+```
+[Feat]     : 기능 개발
+[Modify]   : 코드 수정
+[fix]      : 긴급 수정
+[Docs]     : 문서 작업
+[Test]     : 테스트 코드
+[Design]   : CSS, UI 수정
+[Remove]   : 파일 삭제
+[Refactor] : 리팩토링
+```
 
-<p><b>로그인 API 구현 </b></p>
+## 📌 코드 컨벤션
 
-<p><b>Related to : D211-4 </b></p></td>
-  </tr>
-</table>
+```
+Back-End
+- 함수명을 작성할 때는 동사+명사 형태로 구성
+- 함수명은 Camel-Case로 작성
+- Package Depth == 3Depth
+- servlet.context-path는 해당 WAS를 나타낼 수 있도록 작성
+- Endpoint는 해당 리소스를 나타낼 수 있도록 작성
+- 한줄 주석은 //, 여러 줄 주석은 /** */으로 작성
+```
 
+## 📃 개발 환경
 
+### ⚒️ Back-End
 
-## 📁 Repository 폴더 구조
-<p> 추후 추가 필요 </p>
+- Springboot 3.2.2
+- InteliJ
+- JDK 17
+- AWS EC2
+- AWS S3
+- MySQL
+- Redis
+- WebSocket&STOMP
+- Nginx
+- OpenVidu
 
+### ⚒️ Front-End
+
+- React
+- Visual Studio
+- TailwindCSS
+- OpenVidu
+
+### ⚒️ CI/CD
+
+- Jenkins
+
+### ⚒️ 협업 툴
+
+- Gerrit
+- GitLab
+
+## 📝 API 명세서
+
+### 노션 링크 첨부 🔗
+
+https://efficient-liver-208.notion.site/API-a1db160026a44efa971c6dc31fa2a88a
+
+## ⚙️ ERD 다이어그램
+
+### ERD Cloud 사이트로 제작 및 링크 첨부 🔗
+
+https://www.erdcloud.com/d/nrfqSDdChRWJpanzz
 
 ## 📌 브랜치 전략
 
